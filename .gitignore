@@ -1,0 +1,7 @@
+# git does not see the following files to limit merge conflicts and breaking changes
+
+.idea/HerbaPower_Site.iml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
