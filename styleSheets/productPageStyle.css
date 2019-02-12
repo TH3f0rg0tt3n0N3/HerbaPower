@@ -1,0 +1,19 @@
+body{
+    margin:0;
+    padding:0;
+}
+.productPage{
+    width: 90vw;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    background-color: cyan;
+}
+.productPreviewSearch{
+    width: 70vw;
+    position: absolute;
+    right: 10vw;
+}
+.productPreviewHorizontalAlign{
+
+}
