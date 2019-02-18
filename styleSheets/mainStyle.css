@@ -3,14 +3,29 @@ body{
     font-family: calibri;
 }
 
-.herbaPowerLogoHolder{
+.webshopTitle{
     text-align: center;
 }
 
-.herbaPowerLogo{
-    width: 400px;
+.news{
+    text-align: center;
 }
 
-.TitleWebshop{
+.newsItem{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    margin: 0px 10px 5px 10px;
+}
+
+.newsPhotoHolder{
+    text-align: center;
+}
+
+.newsPhoto{
+    width: 200px;
+}
+
+.newsTitle{
     text-align: center;
 }
