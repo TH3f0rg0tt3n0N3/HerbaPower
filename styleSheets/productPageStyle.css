@@ -1,19 +1,26 @@
 body{
     margin:0;
     padding:0;
+    background-color: #D7E8D4;
 }
 .productPage{
-    width: 90vw;
+    width: 80vw;
     height: 100vh;
-    position: absolute;
-    right: 0;
-    background-color: cyan;
-}
-.productPreviewSearch{
-    width: 70vw;
-    position: absolute;
+    margin: auto auto;
     right: 10vw;
 }
-.productPreviewHorizontalAlign{
-
+.productPreviewSearch{
+    width: 76vw;
+    position: relative;
+    left: 2.5%;
+}
+.productPreviewSearchBar{
+    width: 100%;
+    margin: 5% 0;
+    height: 5%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
