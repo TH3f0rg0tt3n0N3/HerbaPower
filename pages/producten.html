@@ -11,10 +11,24 @@
         <!-- Tekenset declareren -->
         <meta charset="utf-8">
         <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="../styleSheets/mainStyle.css">
         <link rel="stylesheet" type="text/css" href="../styleSheets/productPageStyle.css">
         <link rel="stylesheet" type="text/css" href="../styleSheets/productPreviewStyle.css">
+        <link rel="stylesheet" type="text/css" href="../styleSheets/menuStyle.css">
+        <!-- JavaScript -->
+        <script src="../javascript/functions.js" defer></script>
     </head>
     <body class="productPage">
+        <div id="overlay"></div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <img src="../Logos/herbapower_logo.png" alt="herbapower" id="photoMenu">
+            <a href="index.html">Home</a>
+            <a href="producten.html">producten</a>
+            <a href="contact.html">contact</a>
+            <a id="copyright">&copy; Herbapower</a>
+        </div>
+        <span id="openMenu">&#9776; Menu</span>
         <div class="productPreviewSearch">
             <form>
                 <input type="search" value="Zoeken naar" class="productPreviewSearchBar">
