@@ -1,0 +1,33 @@
+#welcomeSection
+{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#welcomeSection > *
+{
+    max-width: 40%;
+    min-width: 300px;
+}
+
+#welcomeSection img
+{
+    max-width: 400px;
+    width: 100%;
+}
+
+#welcomeSection h1,
+#welcomeSection p
+{
+    margin: 0;
+}
+
+.pageInfoWrapper
+{
+    width: 90%;
+    margin: 0 auto;
+}

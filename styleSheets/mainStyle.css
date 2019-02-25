@@ -1,7 +1,5 @@
 html, body {
     margin: 0px;
-    padding: 0px;
-    border: 0px;
 }
 
 body{
@@ -18,23 +16,31 @@ body{
     text-align: center;
 }
 
-.news{
+.news
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .newsItem{
     position: relative;
-    display: inline-block;
-    width: 200px;
+    flex: 0 0 auto;
+    width: 20%;
+    min-width: 200px;
+    box-sizing: border-box;
     margin: 0px 10px 5px 10px;
 }
+
 
 .newsPhotoHolder{
     text-align: center;
 }
 
 .newsPhoto{
-    width: 200px;
+    width: 100%;
 }
 
 .newsTitle{
