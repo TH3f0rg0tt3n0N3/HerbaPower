@@ -12,3 +12,10 @@ function closeNav() {
     document.getElementById("overlay").style.visibility = "hidden";
     document.getElementById("copyright").style.visibility = "hidden";
 }
+
+/**
+ * @functionName:       generateNewsItems
+ * @madeBy:             Gabriël Pouw
+ * @LastEdited:         21-02-2019
+ * @Param:              none
+ */

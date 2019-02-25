@@ -1,16 +1,43 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
 body{
     background-color: #D7E8D4;
     font-family: calibri;
 }
 
-.herbaPowerLogoHolder{
+.pageInfoWrapper{
+    top: 50px;
+    position: relative;
+}
+
+.webshopTitle{
     text-align: center;
 }
 
-.herbaPowerLogo{
-    width: 400px;
-}
-
-.TitleWebshop{
+.news{
     text-align: center;
 }
+
+.newsItem{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    margin: 0px 10px 5px 10px;
+}
+
+.newsPhotoHolder{
+    text-align: center;
+}
+
+.newsPhoto{
+    width: 200px;
+}
+
+.newsTitle{
+    text-align: center;
+}
+
