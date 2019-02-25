@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    background-color: #D7E8D4;
+}
+.contact-wrapper{
+    width: 80%;
+    margin: 0 auto 0 auto;  
+}
+.contactForm, .contactInfo{
+    width:50%;
+    box-sizing: border-box;
+    padding: 20px;
+    float: left;
+    display: inline-block;
+}
+.contactForm{
+    text-align: center;
+}
+@media screen and (max-width: 960px){
+    .contactForm, .contactInfo{
+        width: 100%;
+        float: none;
+    }
+}
