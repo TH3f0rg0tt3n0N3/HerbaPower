@@ -48,7 +48,6 @@ body{
 #mainContainer
 {
     overflow: hidden;
-    padding-bottom: 50px;
     box-sizing: border-box;
     flex: 1 0 auto;
 }

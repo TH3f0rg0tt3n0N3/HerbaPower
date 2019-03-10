@@ -38,49 +38,31 @@
         </div>
         <span id="openMenu" onclick="openNav()">&#9776; Menu</span>
         <div id="mainContainer">
-            <div class="contactForm">
-                <div class="contactInfo">
-                    <h2>
-                        Contact info
-                    </h2>
-                </div>
-                <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-                    <div class="formElement">
-                        <div class="formElementLeft">
-                            <h4>Naam</h4>
-                        </div>
-                        <div class="formElementRight">
-                            <input type="text" placeholder="" name="name">
-                        </div>
-                    </div>
-                    <div class="formElement">
-                        <div class="formElementLeft">
-                            <h4>Email</h4>
-                        </div>
-                        <div class="formElementRight">
-                            <input type="text" placeholder="example@email.com" name="email">
-                        </div>
-                    </div>
-                    <div class="formElement">
-                        <div class="formElementLeft">
-                            <h4>Bericht</h4>
-                        </div>
-                        <div class="formElementRight">
-                            <textarea name="comment">
-    
-                            </textarea>
-                        </div>
-                    </div>
-                    <div class="formElement">
-                        <div class="formElementLeft"></div>
-                        <div class="formElementRight">
-                            <button>
-                                Verzenden
-                            </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
+            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                <h1>
+                    Contactformulier
+                </h1>
+                <table>
+                    <tr>
+                        <td class="fillCell">
+                            <input type="text" placeholder="Vul hier uw naam in" name="name">
+                        </td>
+                        <td class="fillCell">
+                            <input type="text" placeholder="Vul hier uw email in" name="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fillCell" colspan="2">
+                            <textarea rows="5" cols="50" name="message" placeholder="Vul hier uw bericht in"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" value="Verzenden">
+                        </td>
+                    </tr>
+                </table>
+            </form>
         </div>
         <footer>&copy; Herbapower</footer>
     </body>

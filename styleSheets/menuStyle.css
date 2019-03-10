@@ -5,6 +5,7 @@
     background-color: #658361;
     color: white;
     display: block;
+    box-sizing: border-box;
     padding: 10px;
     border-bottom: 2px solid rgb(95, 96, 98);
 }
