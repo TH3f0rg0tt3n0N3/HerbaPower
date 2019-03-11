@@ -1,0 +1,36 @@
+#welcomeSection
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-flow: dense;
+    grid-gap: 10px;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-items: center;
+}
+
+#welcomeSection > *
+{
+    width: 100%;
+}
+
+#welcomeSection img
+{
+    max-width: 400px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#welcomeSection h1,
+#welcomeSection p
+{
+    margin: 0;
+}
+
+.pageInfoWrapper
+{
+    width: 90%;
+    margin: 0 auto;
+}
