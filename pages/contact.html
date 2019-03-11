@@ -21,7 +21,7 @@
         <!-- Viewport -->
         <meta name="viewport" content="width=device-width; initial-scale=1.0">
     </head>
-    <body class="contactPage">
+    <body>
         <!-- header -->
         <div id="overlay"></div>
         <div id="mySidenav" class="sidenav">
@@ -36,55 +36,36 @@
             </nav>
             <footer>&copy; Herbapower</footer>
         </div>
-        <span id="openMenu" onclick="openNav()">&#9776; Menu</span>
-        
-
-        <div class="contact-wrapper">
-            <div class="contactInfo">
-                <h2>
-                    Contact info
-                </h2>
-                <p>
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
-                </p>
-            </div>
-            
-            <form action="mailto:someone@example.com" method="post" enctype="text/plain" class="contactForm">
-                <h2>Stel hier een vraag</h2>
-                <div class="formElement">
-                    <div class="formElementLeft">
-                        <h4>Naam</h4>
-                    </div>
-                    <div class="formElementRight">
-                        <input type="text" placeholder="" name="name">
-                    </div>
-                </div>
-                <div class="formElement">
-                    <div class="formElementLeft">
-                        <h4>Email</h4>
-                    </div>
-                    <div class="formElementRight">
-                        <input type="text" placeholder="example@email.com" name="email">
-                    </div>
-                </div>
-                <div class="formElement">
-                    <div class="formElementLeft">
-                        <h4>Bericht</h4>
-                    </div>
-                    <div class="formElementRight">
-                        <textarea name="comment">
-
-                        </textarea>
-                    </div>
-                </div>
-                <div class="formElement">
-                    <div class="formElementLeft"></div>
-                    <div class="formElementRight">
-                        <button>
-                            Verzenden
-                        </button>
-                    </div>
-                </div>
+        <header>
+            <span id="openMenu">
+                &#9776; Menu
+            </span>
+        </header>
+        <div id="mainContainer">
+            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                <h1>
+                    Contactformulier
+                </h1>
+                <table>
+                    <tr>
+                        <td class="fillCell">
+                            <input type="text" placeholder="Vul hier uw naam in" name="name">
+                        </td>
+                        <td class="fillCell">
+                            <input type="text" placeholder="Vul hier uw email in" name="email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="fillCell" colspan="2">
+                            <textarea rows="5" cols="50" name="message" placeholder="Vul hier uw bericht in"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" value="Verzenden">
+                        </td>
+                    </tr>
+                </table>
             </form>
         </div>
         <footer>&copy; Herbapower</footer>

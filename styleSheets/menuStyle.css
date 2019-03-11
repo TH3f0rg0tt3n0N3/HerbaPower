@@ -1,6 +1,5 @@
-#openMenu {
+header {
     font-size: 23px;
-    cursor: pointer;
     width: 100%;
     background-color: #658361;
     color: white;
@@ -8,6 +7,12 @@
     box-sizing: border-box;
     padding: 10px;
     border-bottom: 2px solid rgb(95, 96, 98);
+}
+
+#openMenu
+{
+    cursor: pointer;
+    user-select: none;
 }
 
 .sidenav {
@@ -53,6 +58,7 @@
 
 .sidenav .closebtn {
     right: 0px;
+    user-select: none;
     box-sizing: border-box;
     width: 100%;
     border-bottom: 2px solid rgb(95, 96, 98);
