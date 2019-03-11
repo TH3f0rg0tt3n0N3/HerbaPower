@@ -13,29 +13,62 @@
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="../styleSheets/mainStyle.css">
         <link rel="stylesheet" type="text/css" href="../styleSheets/menuStyle.css">
+        <link rel="stylesheet" type="text/css" href="../styleSheets/homePageStyle.css">
         <!-- JavaScript -->
         <script src="../javascript/functions.js" defer></script>
+        <!-- Icon voor de website -->
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+        <!-- Viewport -->
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
     </head>
     <body>
     <div id="overlay"></div>
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <img src="../Logos/herbapower_logo.png" alt="herbapower" id="photoMenu">
-        <a href="index.html">Home</a>
-        <a href="producten.html">producten</a>
-        <a href="contact.html">contact</a>
-        <a id="copyright">&copy; Herbapower</a>
+        <div id="photoMenu">
+            <img src="../Logos/herbapower_logo.png" alt="herbapower">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="producten.html">Producten</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <footer>&copy; Herbapower</footer>
     </div>
     <span id="openMenu" onclick="openNav()">&#9776; Menu</span>
-    <div class="pageInfoWrapper">
-        <div class="webshopTitle">
-            <h2>
-                Nieuws
+    <div id="mainContainer">
+        <div class="pageInfoWrapper">
+            <div id="welcomeSection">
+                <div class="left">
+                        <img src="../Logos/herbapower_logo_transparent.png" id="">
+                </div>
+                <div class="right">
+                    <h1>
+                        Welkom!
+                    </h1>
+                    <p>
+                            Lorem ipsum dolor sit amet, consectetur 
+                            adipiscing elit. Vivamus ut porttitor magna. 
+                            Donec posuere lectus gravida lacus aliquet, ut 
+                            tincidunt est ultricies. Suspendisse potenti. Sed in mi non nisi 
+                            condimentum molestie non vitae nulla. Curabitur tristique at felis 
+                            et pulvinar. Morbi neque tortor, fermentum eu venenatis ac, vehicula a 
+                            dolor. Cras efficitur ornare lectus sed pharetra. Mauris rutrum lorem 
+                            nec tristique ornare. Nam vel lectus sit amet lacus aliquet ultrices. 
+                            Quisque feugiat tristique tempus. Etiam sit amet neque enim. 
+                            Vestibulum urna felis, ornare eget risus at, vehicula consequat tellus. 
+                            Vivamus quis risus in justo gravida venenatis. 
+                            Sed at lectus a nisi blandit varius.
+                    </p>
+                </div>
+            </div>
+            <h2 class="webshopTitle">
+                    Nieuws
             </h2>
-        </div>
-        <div id="news">
-
-        </div>
+            <div id="news">
+               
+            </div>
+            </div>
         </div>
     </div>
     <footer>&copy; Herbapower</footer>

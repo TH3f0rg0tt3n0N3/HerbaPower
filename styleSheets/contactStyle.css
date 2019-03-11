@@ -1,0 +1,108 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #D7E8D4;
+}
+
+.contact-wrapper{
+    width: 80%;
+    padding: 20px;
+    height: auto;
+    margin: auto auto;
+    margin-top: 70px;
+    overflow: hidden;
+}
+.contactForm, .contactInfo{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    float: left;
+}
+.contactForm > h2, .contactInfo > h2{
+    text-align: center;
+}
+
+.formElement{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+input,
+textarea
+{
+    padding: 5px;
+    background-color: #759b6f;
+    font-family: "Calibri";
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+}
+
+input::placeholder,
+textarea::placeholder
+{
+    color: rgb(220, 220, 220);
+}
+.formElementRight{
+    width: 85%;
+    float: right;
+}
+
+table
+{
+    width: 100%;
+    table-layout: auto;
+    padding: 0 10px 10px 10px;
+    border-spacing: 10px;
+}
+
+input[type=submit]
+{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color .3s, color .3s;
+}
+
+input[type=submit]:hover
+{
+    background-color: #8fc487;
+    color: rgb(255, 255, 255);
+}
+
+.fillCell *
+{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1
+{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#mainContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 960px){
+    .contactForm, .contactInfo{
+        width: 100%;
+    }
+    .formElementLeft{
+        float: none;
+        
+    }
+    .formElementRight{
+        float:none;
+        width: 100%;
+    }
+}

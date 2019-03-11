@@ -1,16 +1,16 @@
 document.getElementById('openMenu').onclick = function() {
-    document.getElementById("mySidenav").style.width = "20%";
-    document.getElementById("overlay").style.width = "80%";
+    document.getElementById("mySidenav").classList.add("show");
     document.getElementById("overlay").style.visibility = "visible";
-    document.getElementById("copyright").style.visibility = "visible";
-    
+    document.getElementById("overlay").classList.add("showOverlay");
 }
 
 /*het menu sluiten*/
 function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("overlay").style.visibility = "hidden";
-    document.getElementById("copyright").style.visibility = "hidden";
+    document.getElementById("mySidenav").classList.remove("show");
+    document.getElementById("overlay").classList.remove("showOverlay");
+    setTimeout(function(){
+        document.getElementById("overlay").style.visibility = "hidden";
+    }, 500);
 }
 
 /**

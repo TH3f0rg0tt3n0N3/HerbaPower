@@ -1,13 +1,9 @@
 .productPreview{
-    float: left;
-    width: 20%;
-    position: relative;
-    margin: 2.5%;
-    display: inline-block;
+    width: 100%;
     border: 1px solid #ccc;
     border-radius: 12px;
     box-sizing: border-box;
-    background-color: #98FB98 ;
+    background-color: #658361 ;
 }
 .productPreviewHeader{
     text-align: center;
