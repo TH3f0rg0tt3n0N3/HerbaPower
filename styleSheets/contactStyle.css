@@ -3,23 +3,30 @@ body{
     padding: 0;
     background-color: #D7E8D4;
 }
-.contactForm{
-    width: 40vw;
-    height: 100vh;
+
+.contact-wrapper{
+    width: 80%;
+    padding: 20px;
+    height: auto;
     margin: auto auto;
-    right: 10vw;
+    margin-top: 70px;
+    overflow: hidden;
 }
-.contactInfo{
-    width: 40vw;
-    position: relative;
-    right: 0%;
+.contactForm, .contactInfo{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    float: left;
+}
+.contactForm > h2, .contactInfo > h2{
     text-align: center;
-    margin: 10% 0;
 }
+
 .formElement{
     width: 100%;
-    height: 5%;
-    margin: 5% 0;
+    overflow: hidden;
+    margin-top: 20px;
+    box-sizing: border-box;
 }
 .formElementLeft{
     width: 5%;
@@ -31,7 +38,7 @@ body{
     text-align: right;
 }
 .formElementRight{
-    width: 90%;
+    width: 85%;
     float: right;
 }
 .formElementRight>input{
@@ -44,4 +51,17 @@ body{
 .formElementRight>button{
     margin: 5% 0;
     float: right;
+}
+@media screen and (max-width: 960px){
+    .contactForm, .contactInfo{
+        width: 100%;
+    }
+    .formElementLeft{
+        float: none;
+        
+    }
+    .formElementRight{
+        float:none;
+        width: 100%;
+    }
 }
